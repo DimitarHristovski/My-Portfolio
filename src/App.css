@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+body {
+  font-family: "Indie Flower";
+}
+a {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.btn-danger {
+  background-color: #626dcf;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #626dcf;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../public/Design/StockSnap_P1UGP3KR2S.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100% - 1rem);
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+.fixed {
+  width: 400px;
+  height: 400px;
+}
+.card-img-top {
+  width: 200px !important;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  background-color: #626dcf;
+  border: 3px solid #626dcf;
+}
+
+.btn-primary:hover {
+  background-color: #626dcf;
+  border: 3px solid #626dcf;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cards {
+  border: 3px solid #626dcf;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 300px;
+}
+
+.cards h2 {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+.cards ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.cards li {
+  margin-bottom: 10px;
+}
+
+.cards a {
+  display: inline-block;
+  background-color: #626dcf;
+  padding: 8px 16px;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.cards a:hover {
+  background-color: #626dcf;
+}
+
+.project-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card h3 {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #626dcf;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+  background-color: #c0392b;
+}
+.text-size {
+  font-size: 1.5rem;
+}
+.tin {
+  background-color: #ff5864;
+  border-color: #ff5864;
+}
+.header-color {
+  color: #ff5864;
+  font-size: 1.6rem;
+}
+.day {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.night {
+  background-color: #000 !important;
+  color: #fff !important;
+}
