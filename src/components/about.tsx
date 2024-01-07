@@ -7,7 +7,7 @@ const About = () => {
         <img
           src="/Design/avatar.png"
           alt="avatar"
-          className="col-12  col-md-5 m-auto fixed shakeit rounded"
+          className="col-12  col-md-5 m-auto fixed shakeit img-rounded"
         />
       </div>
       <div className="row">

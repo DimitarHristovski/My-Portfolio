@@ -1,9 +1,5 @@
 import React from "react";
-
-interface CardProps {
-  title: string;
-  items: string[];
-}
+import { CardProps } from "../interfaces/db";
 
 const Card: React.FC<CardProps> = ({ title, items }) => {
   return (

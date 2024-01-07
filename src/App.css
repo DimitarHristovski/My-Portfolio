@@ -122,7 +122,9 @@ a {
 .project-card p {
   margin-bottom: 15px;
 }
-
+.img-rounded {
+  border-radius: 100%;
+}
 .project-card a {
   display: inline-block;
   text-decoration: none;

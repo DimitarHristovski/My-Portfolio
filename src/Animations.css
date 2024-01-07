@@ -1,11 +1,11 @@
 .cards:hover {
   transform: scale(1.03);
-  animation: wobble 2s ease 0s 4 normal forwards;
+  animation: wobble 1s ease 0s 1 normal forwards;
 }
 
 .project-card:hover {
   transform: scale(1.05);
-  animation: wobble 2s ease 0s 4 normal forwards;
+  animation: wobble 1s ease 0s 1 normal forwards;
 }
 .shakeit:hover {
   animation: shake 2s ease 0s 4 normal forwards;

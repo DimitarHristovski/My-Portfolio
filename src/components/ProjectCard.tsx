@@ -1,10 +1,6 @@
 import React from "react";
-interface Project {
-  title: string;
-  technologies: string[];
-  githubUrl: string;
-  hostedUrl: string;
-}
+import { Project } from "../interfaces/db";
+
 interface CardProps {
   project: Project;
 }
