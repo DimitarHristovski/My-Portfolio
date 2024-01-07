@@ -24,17 +24,17 @@ export const categories = [
 export const projectData = [
   {
     id: 1,
-    title: "Project One",
-    technologies: ["React", "Node.js", "MongoDB"],
-    githubUrl: "https://github.com/user/project1",
-    hostedUrl: "https://project1.com",
+    title: "Igraliste E-store(Mobile-Only)",
+    technologies: ["Next.js", "Typescript", "Bootstrap"],
+    githubUrl: "https://github.com/DimitarHristovski/Igraliste",
+    hostedUrl: "https://igraliste-one.vercel.app/",
   },
   {
     id: 2,
-    title: "Data Visualization App",
-    technologies: ["D3.js", "React"],
-    githubUrl: "https://github.com/user/project2",
-    hostedUrl: "https://project2.com",
+    title: "Car Race Game (Desktop-Only)",
+    technologies: ["JQuery", "CSS3"],
+    githubUrl: "https://github.com/DimitarHristovski/Car-Race-Game",
+    hostedUrl: "https://car-race-game-opal.vercel.app/",
   },
   {
     id: 3,

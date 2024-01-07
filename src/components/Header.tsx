@@ -93,7 +93,7 @@ const Header: React.FC = () => {
                     </a>
                   </p>
                   <a
-                    href="./Dimitar-Hristovski-CV.pdf"
+                    href="/DimitarHristosvskiCV.pdf"
                     download
                     className="btn btn-info text-light"
                   >
