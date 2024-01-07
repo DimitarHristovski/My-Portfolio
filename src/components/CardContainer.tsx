@@ -5,9 +5,9 @@ const CardContainer: React.FC = () => {
   return (
     <div className="card-container  d-flex flex-wrap m-auto flex-column">
       <h1 className="text-center">Technologies</h1>{" "}
-      <div className=" d-flex flex-wrap m-auto justify-content-center col-12">
+      <div className="row  justify-content-center ">
         {categories.map((category, index) => (
-          <div className="col-md-6 d-flex justify-content-center col-sm-12">
+          <div className="col-lg-5  col-md-6 col-sm-12 justify-content-center">
             <Card key={index} title={category.title} items={category.items} />
           </div>
         ))}
