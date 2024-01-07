@@ -96,15 +96,15 @@ export const projectData = [
   {
     id: 11,
     title: "Portfolio",
-    technologies: ["CSS3", "HTML5", "Bootstrap"],
+    technologies: ["CSS3", "HTML5"],
     githubUrl: "https://github.com/DimitarHristovski/Assignment-Two-Portfolio",
     hostedUrl: "https://assignment-two-portfolio.vercel.app/#",
   },
   {
     id: 12,
-    title: "Dashboard",
-    technologies: ["CSS Grid", "HTML5"],
-    githubUrl: "https://github.com/DimitarHristovski/Admin-Dashboard",
-    hostedUrl: "https://admin-dashboard-five-murex.vercel.app/#",
+    title: "EduCenter",
+    technologies: ["Next.js", "Typescript", "Bootstrap5"],
+    githubUrl: "https://github.com/DimitarHristovski/EduCenter",
+    hostedUrl: "",
   },
 ];

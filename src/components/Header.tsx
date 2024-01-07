@@ -74,24 +74,21 @@ const Header: React.FC = () => {
                   <p className="card-text">
                     <b>Email:</b> dimihbt@yahoo.com
                   </p>
-                  <p className="card-text m-0 d-flex justify-content-around">
-                    <b>Linkedin:</b>
+                  <div className="card-text m-0 d-flex justify-content-center">
                     <a
                       href="https://www.linkedin.com/in/dimitar-hristovski-1711a9163"
                       target="_blank"
                     >
                       <i className="fab fa-linkedin fa-2x"></i>{" "}
-                    </a>
-                  </p>
-                  <p className="card-text m-0 d-flex justify-content-around">
-                    <b>Github:</b>
+                    </a>{" "}
                     <a
                       href="https://github.com/DimitarHristovski"
                       target="_blank"
                     >
                       <i className="fab fa-github fa-2x"></i>
                     </a>
-                  </p>
+                  </div>
+
                   <a
                     href="/DimitarHristosvskiCV.pdf"
                     download
