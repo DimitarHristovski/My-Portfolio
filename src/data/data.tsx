@@ -48,7 +48,7 @@ export const projectData = [
     title: "E-store for Clothes",
     technologies: ["Next.js", "Typescript", "Bootstrap5"],
     githubUrl: "https://github.com/DimitarHristovski/ClothesStore",
-    hostedUrl: "https://project8.comtoADD",
+    hostedUrl: "https://clothes-store-inky-pi.vercel.app/",
   },
   {
     id: 5,
