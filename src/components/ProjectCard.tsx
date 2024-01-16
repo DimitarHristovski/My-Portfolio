@@ -12,6 +12,7 @@ const ProjectCard: React.FC<CardProps> = ({ project }) => {
       <p>Technologies: {project.technologies.join(", ")}</p>
       <div className="d-flex justify-content-between ">
         {" "}
+        <p>description</p>
         <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
