@@ -117,7 +117,7 @@ const Header: React.FC = () => {
             <span className="header-color mx-1">
               Front-end Developer and Designer
             </span>
-            and this is my <span className="header-color">Web Portfolio!</span>
+            and this is my <span className="header-color">Web Portfolio!!</span>
           </p>
         </div>
       </div>{" "}

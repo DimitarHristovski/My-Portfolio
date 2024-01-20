@@ -26,6 +26,7 @@ export const projectData = [
     id: 1,
     title: "Igraliste E-store(Mobile-Only)",
     technologies: ["Next.js", "Typescript", "Bootstrap5"],
+    description:"This is mobile first E-store  Minimal Viable Product (MVP) for my Client thats selling Clothes",
     githubUrl: "https://github.com/DimitarHristovski/Igraliste",
     hostedUrl: "https://igraliste-one.vercel.app/",
   },
@@ -33,6 +34,7 @@ export const projectData = [
     id: 2,
     title: "Car Race Game (Desktop-Only)",
     technologies: ["JQuery", "CSS3"],
+    description:"This a simple racing game that i have created",
     githubUrl: "https://github.com/DimitarHristovski/Car-Race-Game",
     hostedUrl: "https://car-race-game-opal.vercel.app/",
   },
@@ -40,6 +42,8 @@ export const projectData = [
     id: 3,
     title: "E-store for Furniture",
     technologies: ["React.js", "Typescript", "Bootstrap5"],
+    description:"This a simple E-store that i have created",
+
     githubUrl: "https://github.com/DimitarHristovski/Furwood-E-store",
     hostedUrl: "https://furwood-e-store.vercel.app/",
   },
@@ -47,6 +51,7 @@ export const projectData = [
     id: 4,
     title: "E-store for Clothes",
     technologies: ["Next.js", "Typescript", "Bootstrap5"],
+    description:"This a  E-store that i have created using Next.js to be SEO Friendly",
     githubUrl: "https://github.com/DimitarHristovski/ClothesStore",
     hostedUrl: "https://clothes-store-inky-pi.vercel.app/",
   },
@@ -54,6 +59,8 @@ export const projectData = [
     id: 5,
     title: "Marinov-Jewelry E-store(Mobile-Only)",
     technologies: ["Next.js", "Typescript", "Bootstrap5"],
+    description:"This is mobile first E-store  Minimal Viable Product (MVP) for my Client thats about selling jewelry (Currently in Development)",
+
     githubUrl:
       "hhttps://github.com/DimitarHristovski/Marinov-jewelry/tree/Dimi-Final",
     hostedUrl: "https://project5.comtoADD",
