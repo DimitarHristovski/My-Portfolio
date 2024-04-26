@@ -3,13 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="container-fluid">
-      <div className="row m-3">
-        <img
-          src="/Design/avatar.png"
-          alt="avatar"
-          className="col-12  col-md-5 m-auto fixed shakeit img-rounded"
-        />
-      </div>
+      <div className="row m-3"></div>
       <div className="row">
         <div className="col-10     text-center p-4 d-flex  justify-content-center m-auto flex-column flex-md-row ">
           <div className="col-sm-10  col-md-5 align-self-center">
@@ -26,11 +20,6 @@ const About = () => {
               and do something different every day.
             </p>
           </div>{" "}
-          <img
-            src="/Design/colorful.png"
-            alt="colorful"
-            className="col-12 shakeit col-md-5 m-auto fixed"
-          />
         </div>
       </div>
     </div>
