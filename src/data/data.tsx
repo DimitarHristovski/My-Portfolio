@@ -73,6 +73,7 @@ export const projectData = [
     id: 6,
     title: "Portfolio",
     technologies: ["CSS3", "HTML5"],
+    description: "Responsive portfolio for online competition",
     githubUrl: "https://github.com/DimitarHristovski/Assignment-Two-Portfolio",
     hostedUrl: "https://assignment-two-portfolio.vercel.app/#",
   },
