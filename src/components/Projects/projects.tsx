@@ -7,22 +7,42 @@ interface CardProps {
 
 const Projects: React.FC<CardProps> = ({ project }) => {
   return (
-    <div className="project-card">
-      <h3>{project.title}</h3>
-      <p>Technologies: {project.technologies.join(", ")}</p>
-      <div className="d-flex justify-content-between flex-column">
-        {" "}
-        <p>{project.description}</p>
-        <div className="d-flex justify-content-between">
-          {" "}
-          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-            GitHub
-          </a>
-          <a href={project.hostedUrl} target="_blank" rel="noopener noreferrer">
-            Hosted Page
-          </a>
-        </div>
-      </div>
+    <div className="project-card m-1">
+      <table className="table">
+        <thead>
+          <tr>
+            <th>Project Title</th>
+            <th>Technologies</th>
+            <th>Description</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{project.title}</td>
+            <td>{project.technologies.join(", ")}</td>
+            <td>{project.description}</td>
+            <td className="text-center">
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-link"
+              >
+                GitHub
+              </a>
+              <a
+                href={project.hostedUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-link"
+              >
+                Hosted Page
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 };

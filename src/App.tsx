@@ -3,7 +3,7 @@ import "./Animations.css";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import CardContainer from "./components/Technologies/CardContainer";
+import TechContainer from "./components/Technologies/TechContainer";
 import ProjectsContainer from "./components/Projects/ProjectsContainer";
 import About from "./components/about";
 import { ThemeProvider } from "./context/ThemeContext";
@@ -15,7 +15,7 @@ function App() {
         <Header />
         <About />
         <ProjectsContainer />
-        <CardContainer />
+        <TechContainer />
         <Footer />
       </div>
     </ThemeProvider>

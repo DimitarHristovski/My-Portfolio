@@ -9,7 +9,7 @@ const ProjectsContainer = () => {
       <div className="row justify-content-center">
         {projectData.map((project) => (
           <div
-            className="col-lg-5 col-md-6 col-sm-12 justify-content-center"
+            className="col-lg-10 col-md-6 col-sm-12 justify-content-center"
             key={project.id}
           >
             <ProjectCard project={project} />
