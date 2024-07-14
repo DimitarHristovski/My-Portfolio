@@ -1,11 +1,11 @@
 import React from "react";
-import { Project } from "../interfaces/db";
+import { Project } from "../../interfaces/db";
 
 interface CardProps {
   project: Project;
 }
 
-const ProjectCard: React.FC<CardProps> = ({ project }) => {
+const Projects: React.FC<CardProps> = ({ project }) => {
   return (
     <div className="project-card">
       <h3>{project.title}</h3>
@@ -26,4 +26,4 @@ const ProjectCard: React.FC<CardProps> = ({ project }) => {
     </div>
   );
 };
-export default ProjectCard;
+export default Projects;

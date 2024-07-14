@@ -1,7 +1,7 @@
 import React from "react";
-import { CardProps } from "../interfaces/db";
+import { CardProps } from "../../interfaces/db";
 
-const Card: React.FC<CardProps> = ({ title, items }) => {
+const Technologies: React.FC<CardProps> = ({ title, items }) => {
   return (
     <div className="cards  m-2 col-12">
       <h5>{title}</h5>
@@ -16,4 +16,4 @@ const Card: React.FC<CardProps> = ({ title, items }) => {
   );
 };
 
-export default Card;
+export default Technologies;
