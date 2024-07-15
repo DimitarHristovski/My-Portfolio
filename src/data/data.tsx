@@ -33,11 +33,10 @@ export const projectData = [
   },
   {
     id: 2,
-    title: "Car Race Game (Desktop-Only)",
-    technologies: ["JQuery", "CSS3"],
-    description: "This a simple racing game that i have created",
-    githubUrl: "https://github.com/DimitarHristovski/Car-Race-Game",
-    hostedUrl: "https://car-race-game-opal.vercel.app/",
+    title: "LearnHub.mk",
+    technologies: ["Next.js", "Typescript", "SCSS"],
+    githubUrl: "https://github.com/learnhubmk/app",
+    hostedUrl: "https://learnhub.mk/",
   },
   {
     id: 3,
@@ -84,9 +83,10 @@ export const projectData = [
   },
   {
     id: 8,
-    title: "LearnHub.mk",
-    technologies: ["Next.js", "Typescript", "SCSS"],
-    githubUrl: "https://github.com/learnhubmk/app",
-    hostedUrl: "https://learnhub.mk/",
+    title: "Car Race Game (Desktop-Only)",
+    technologies: ["JQuery", "CSS3"],
+    description: "This a simple racing game that i have created",
+    githubUrl: "https://github.com/DimitarHristovski/Car-Race-Game",
+    hostedUrl: "https://car-race-game-opal.vercel.app/",
   },
 ];
