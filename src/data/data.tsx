@@ -66,7 +66,6 @@ export const projectData = [
 
     githubUrl:
       "hhttps://github.com/DimitarHristovski/Marinov-jewelry/tree/Dimi-Final",
-    hostedUrl: "https://project5.comtoADD",
   },
 
   {
@@ -82,7 +81,6 @@ export const projectData = [
     title: "EduCenter",
     technologies: ["Next.js", "Typescript", "Bootstrap5"],
     githubUrl: "https://github.com/DimitarHristovski/EduCenter",
-    hostedUrl: "toADD",
   },
   {
     id: 8,

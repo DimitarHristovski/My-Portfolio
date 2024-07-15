@@ -5,7 +5,7 @@ export interface CardProps {
 export interface Project {
   title: string;
   technologies: string[];
-  description?:string;
+  description?: string;
   githubUrl: string;
-  hostedUrl: string;
+  hostedUrl?: string;
 }
