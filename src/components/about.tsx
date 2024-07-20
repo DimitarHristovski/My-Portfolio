@@ -1,5 +1,5 @@
 import React from "react";
-
+import SocialMedias from "./Services/socialMedias";
 const About = () => {
   return (
     <div className="container-fluid">
@@ -20,6 +20,9 @@ const About = () => {
               and do something different every day.
             </p>
           </div>{" "}
+          <div>
+            <SocialMedias />
+          </div>
         </div>
       </div>
     </div>

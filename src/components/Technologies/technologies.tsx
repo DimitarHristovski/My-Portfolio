@@ -3,9 +3,9 @@ import { CardProps } from "../../interfaces/db";
 
 const Technologies: React.FC<CardProps> = ({ title, items }) => {
   return (
-    <div className="cards  m-2 col-12 ">
+    <div className="cards  col-12 ">
       <h5>{title}</h5>
-      <ul className="list-style-type-none">
+      <ul className="list-style-type-none text-center  ">
         {items.map((item, index) => (
           <li className="wobble" key={index}>
             {item}

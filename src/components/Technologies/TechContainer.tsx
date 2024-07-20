@@ -3,11 +3,11 @@ import Technologies from "./technologies";
 import { categories } from "../../data/data";
 const CardContainer: React.FC = () => {
   return (
-    <div className="card-container  d-flex flex-wrap m-auto flex-column">
+    <div className="card-container mx-2 py-2 d-flex flex-wrap m-auto flex-column">
       <h1 className="text-center">Technologies</h1>{" "}
       <div className="row  justify-content-center ">
         {categories.map((category, index) => (
-          <div className="col-lg-5  col-md-6 col-sm-12 justify-content-center text-center">
+          <div className="col-lg-5  col-md-6 col-sm-12 justify-content-center text-center ">
             <Technologies
               key={index}
               title={category.title}
