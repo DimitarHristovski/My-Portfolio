@@ -4,14 +4,11 @@ import { projectData } from "../../data/data";
 
 const ProjectsContainer = () => {
   return (
-    <div className="projects-container ">
-      <h1 className="text-center">Projects Created</h1>
-      <div className="row justify-content-center">
+    <div className="projects-container">
+      <h1 className="text-center p-2">Projects Created</h1>
+      <div className="row col-lg-8 col-md-10  offset-lg-2 offset-md-1 ">
         {projectData.map((project) => (
-          <div
-            className="col-lg-10 col-md-6 col-sm-12 justify-content-center"
-            key={project.id}
-          >
+          <div key={project.id}>
             <ProjectCard project={project} />
           </div>
         ))}

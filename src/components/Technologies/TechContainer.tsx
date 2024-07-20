@@ -7,7 +7,7 @@ const CardContainer: React.FC = () => {
       <h1 className="text-center">Technologies</h1>{" "}
       <div className="row  justify-content-center ">
         {categories.map((category, index) => (
-          <div className="col-lg-5  col-md-6 col-sm-12 justify-content-center">
+          <div className="col-lg-5  col-md-6 col-sm-12 justify-content-center text-center">
             <Technologies
               key={index}
               title={category.title}

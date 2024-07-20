@@ -27,17 +27,18 @@ export const projectData = [
     title: "Igraliste E-store(Mobile-Only)",
     technologies: ["Next.js", "Typescript", "Bootstrap5"],
     description:
-      "This is mobile first E-store  Minimal Viable Product (MVP) for my Client thats selling Clothes",
+      "This is mobile first E-store  Minimal Viable Product (MVP) for my Client thats selling Clothes (Currently in Development)",
     githubUrl: "https://github.com/DimitarHristovski/Igraliste",
     hostedUrl: "https://igraliste-one.vercel.app/",
   },
   {
     id: 2,
-    title: "Car Race Game (Desktop-Only)",
-    technologies: ["JQuery", "CSS3"],
-    description: "This a simple racing game that i have created",
-    githubUrl: "https://github.com/DimitarHristovski/Car-Race-Game",
-    hostedUrl: "https://car-race-game-opal.vercel.app/",
+    title: "LearnHub.mk",
+    technologies: ["Next.js", "Typescript", "SCSS"],
+    description: "This a OpenSource Project that im working on",
+
+    githubUrl: "https://github.com/learnhubmk/app",
+    hostedUrl: "https://learnhub.mk/",
   },
   {
     id: 3,
@@ -81,14 +82,17 @@ export const projectData = [
     id: 7,
     title: "EduCenter",
     technologies: ["Next.js", "Typescript", "Bootstrap5"],
+    description: "This a simple Educational website that i have created",
+
     githubUrl: "https://github.com/DimitarHristovski/EduCenter",
     hostedUrl: "toADD",
   },
   {
     id: 8,
-    title: "LearnHub.mk",
-    technologies: ["Next.js", "Typescript", "SCSS"],
-    githubUrl: "https://github.com/learnhubmk/app",
-    hostedUrl: "https://learnhub.mk/",
+    title: "Car Race Game (Desktop-Only)",
+    technologies: ["JQuery", "CSS3"],
+    description: "This a simple racing game that i have created",
+    githubUrl: "https://github.com/DimitarHristovski/Car-Race-Game",
+    hostedUrl: "https://car-race-game-opal.vercel.app/",
   },
 ];
