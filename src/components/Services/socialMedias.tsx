@@ -59,9 +59,6 @@ const SocialMedias: React.FC<Stats> = () => {
           </div>
         ))}
       </div>{" "}
-      <button className="btn-primary bg-primary  rounded text-light" disabled>
-        Download CV
-      </button>
     </div>
   );
 };
