@@ -9,3 +9,7 @@ export interface Project {
   githubUrl: string;
   hostedUrl?: string;
 }
+export interface Stats {
+  num: number;
+  text: string;
+}
