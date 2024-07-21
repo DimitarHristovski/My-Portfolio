@@ -67,6 +67,7 @@ export const projectData = [
 
     githubUrl:
       "hhttps://github.com/DimitarHristovski/Marinov-jewelry/tree/Dimi-Final",
+    hostedUrl: "https://project5.comtoADD",
   },
 
   {
@@ -84,12 +85,36 @@ export const projectData = [
     description: "This a simple Educational website that i have created",
 
     githubUrl: "https://github.com/DimitarHristovski/EduCenter",
+    hostedUrl: "toADD",
   },
   {
     id: 8,
-    title: "LearnHub.mk",
-    technologies: ["Next.js", "Typescript", "SCSS"],
-    githubUrl: "https://github.com/learnhubmk/app",
-    hostedUrl: "https://learnhub.mk/",
+    title: "Car Race Game (Desktop-Only)",
+    technologies: ["JQuery", "CSS3"],
+    description: "This a simple racing game that i have created",
+    githubUrl: "https://github.com/DimitarHristovski/Car-Race-Game",
+    hostedUrl: "https://car-race-game-opal.vercel.app/",
+  },
+];
+export const devStats = [
+  {
+    id: 1,
+    num: 3,
+    text: "Years of Professional Experience",
+  },
+  {
+    id: 2,
+    num: 50,
+    text: "Projects Created",
+  },
+  {
+    id: 3,
+    num: 8,
+    text: "Technologies Mastered",
+  },
+  {
+    id: 4,
+    num: 500,
+    text: "Contributions Realised",
   },
 ];
