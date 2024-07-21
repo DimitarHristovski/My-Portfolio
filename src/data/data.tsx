@@ -96,3 +96,25 @@ export const projectData = [
     hostedUrl: "https://car-race-game-opal.vercel.app/",
   },
 ];
+export const devStats = [
+  {
+    id: 1,
+    num: 3,
+    text: "Years of Professional Experience",
+  },
+  {
+    id: 2,
+    num: 50,
+    text: "Projects Created",
+  },
+  {
+    id: 3,
+    num: 8,
+    text: "Technologies Mastered",
+  },
+  {
+    id: 4,
+    num: 500,
+    text: "Contributions Realised",
+  },
+];

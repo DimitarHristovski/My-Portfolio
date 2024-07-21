@@ -14,8 +14,8 @@ function App() {
       <div className="App">
         <Header />
         <About />
-        <ProjectsContainer />
         <TechContainer />
+        <ProjectsContainer />
         <Footer />
       </div>
     </ThemeProvider>

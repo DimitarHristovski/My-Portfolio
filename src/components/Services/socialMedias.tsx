@@ -5,50 +5,63 @@ import {
   faLinkedin,
   faInstagram,
   faFacebook,
+  faDribbble,
 } from "@fortawesome/free-brands-svg-icons";
-
-const SocialMedias: React.FC = () => {
+import { devStats } from "../../data/data";
+import { Stats } from "../../interfaces/db";
+const SocialMedias: React.FC<Stats> = () => {
   return (
     <div>
-      <div>Download CV</div>
-      <ul style={{ listStyleType: "none", padding: 0 }}>
+      <ul className="d-flex list-style-type-none   justify-content-around">
         <li>
           <a
-            href="https://github.com/your-profile"
+            href="https://github.com/DimitarHristovski"
             target="_blank"
             rel="noopener noreferrer"
+            className=""
           >
-            <FontAwesomeIcon icon={faGithub} /> GitHub
+            <FontAwesomeIcon icon={faGithub} size="3x" />
           </a>
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/dimitar-hristovski-1711a9163"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+            <FontAwesomeIcon icon={faLinkedin} size="3x" />
           </a>
         </li>
         <li>
           <a
-            href="https://www.instagram.com/your-profile"
+            href="https://www.instagram.com/dimihbt"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faInstagram} /> Instagram
+            <FontAwesomeIcon icon={faInstagram} size="3x" />
           </a>
         </li>
         <li>
           <a
-            href="https://www.facebook.com/your-profile"
+            href="https://dribbble.com/9dh4"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faFacebook} /> Facebook
+            <FontAwesomeIcon icon={faDribbble} size="3x" />
           </a>
         </li>
       </ul>
+      <div className="d-flex">
+        {devStats.map((stats, index) => (
+          <div key={index} className=" justify-content-center ">
+            <p className="fs-2 text-primary">{stats.num}</p>
+            <p className="fw-bold">{stats.text}</p>
+          </div>
+        ))}
+      </div>{" "}
+      <button className="btn-primary p-2 m-2 rounded text-secondary">
+        Download CV
+      </button>
     </div>
   );
 };
