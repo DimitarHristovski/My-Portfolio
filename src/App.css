@@ -75,3 +75,13 @@ td {
 .list-style-type-none {
   list-style-type: none;
 }
+@media (max-width: 390px) {
+  .hide-on-small {
+    display: none !important;
+  }
+}
+@media (min-width: 390px) {
+  .hide-on-high {
+    display: none !important;
+  }
+}

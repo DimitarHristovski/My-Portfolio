@@ -35,7 +35,7 @@ export const projectData = [
     id: 2,
     title: "LearnHub.mk",
     technologies: ["Next.js", "Typescript", "SCSS"],
-    description: "This a OpenSource Project that im working on",
+    description: "OpenSource Project that im working on",
 
     githubUrl: "https://github.com/learnhubmk/app",
     hostedUrl: "https://learnhub.mk/",
