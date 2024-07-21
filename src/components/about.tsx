@@ -2,10 +2,10 @@ import React from "react";
 import SocialMedias from "./Services/socialMedias";
 const About = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid py-3">
       <div className="row">
         <div className="col-10 text-center d-flex  justify-content-between m-auto flex-column flex-md-row ">
-          <div className="col-sm-10  col-md-5 align-self-center">
+          <div className="col-sm-10 py-2 col-md-5 align-self-center">
             {" "}
             <h1>About My Self</h1>
             <p>
