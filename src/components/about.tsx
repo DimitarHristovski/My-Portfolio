@@ -3,9 +3,8 @@ import SocialMedias from "./Services/socialMedias";
 const About = () => {
   return (
     <div className="container-fluid">
-      <div className="row m-3"></div>
       <div className="row">
-        <div className="col-10     text-center p-4 d-flex  justify-content-between m-auto flex-column flex-md-row ">
+        <div className="col-10 text-center d-flex  justify-content-between m-auto flex-column flex-md-row ">
           <div className="col-sm-10  col-md-5 align-self-center">
             {" "}
             <h1>About My Self</h1>
@@ -20,7 +19,7 @@ const About = () => {
               and do something different every day.
             </p>
           </div>{" "}
-          <div className="col-sm-10  col-md-5 align-content-center offset-1">
+          <div className="col-sm-10 m-0 py-2 col-md-5 align-content-center offset-1">
             <SocialMedias num={0} text={""} />
           </div>
         </div>

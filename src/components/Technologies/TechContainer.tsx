@@ -7,7 +7,7 @@ const CardContainer: React.FC = () => {
     <div className="card-container mx-2 py-2 d-flex flex-column align-items-center ">
       <h1 className="text-center mb-3">Technologies</h1>
       <div
-        className="accordion col-8  justify-content-center"
+        className="accordion col-md-8 col-12  justify-content-center"
         id="accordionExample"
       >
         {categories.map((category, index) => (

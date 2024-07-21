@@ -12,7 +12,7 @@ import { Stats } from "../../interfaces/db";
 const SocialMedias: React.FC<Stats> = () => {
   return (
     <div>
-      <ul className="d-flex list-style-type-none   justify-content-around">
+      <ul className="d-flex list-style-type-none  p-0 justify-content-around">
         <li>
           <a
             href="https://github.com/DimitarHristovski"
@@ -51,15 +51,15 @@ const SocialMedias: React.FC<Stats> = () => {
           </a>
         </li>
       </ul>
-      <div className="d-flex">
+      <div className="d-flex flex-column justify-content-center flex-md-row col-12">
         {devStats.map((stats, index) => (
-          <div key={index} className=" justify-content-center ">
-            <p className="fs-2 text-primary">{stats.num}</p>
-            <p className="fw-bold">{stats.text}</p>
+          <div key={index} className=" justify-content-center   ">
+            <p className="fs-2 text-primary ">{stats.num}</p>
+            <p className="fw-bold ">{stats.text}</p>
           </div>
         ))}
       </div>{" "}
-      <button className="btn-primary p-2 m-2 rounded text-secondary">
+      <button className="btn-primary bg-primary  rounded text-light" disabled>
         Download CV
       </button>
     </div>

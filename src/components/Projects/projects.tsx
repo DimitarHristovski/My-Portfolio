@@ -7,7 +7,7 @@ interface CardProps {
 
 const Projects: React.FC<CardProps> = ({ project }) => {
   return (
-    <table className=" col-12 m-2 h-25">
+    <table className="col-sm-8 offset-sm-2    text-center ">
       <thead>
         <tr>
           <th>Project Title</th>
@@ -18,16 +18,14 @@ const Projects: React.FC<CardProps> = ({ project }) => {
       </thead>
       <tbody>
         <tr>
-          <td className="col-3 align-content-center text-center">
-            {project.title}
-          </td>
-          <td className="col-3 fw-bold align-content-center text-center">
+          <td className="w-25 align-content-center py-1  ">{project.title}</td>
+          <td className="w-25 fw-bold align-content-center py-1">
             {project.technologies.join(", ")}
           </td>
-          <td className="col-3 align-content-center text-center">
+          <td className="w-25 align-content-center py-1">
             {project.description}
           </td>
-          <td className=" col-3 align-content-center text-center">
+          <td className="w-25 align-content-center py-1">
             <a
               href={project.githubUrl}
               target="_blank"
